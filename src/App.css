@@ -27,3 +27,26 @@ body {
   font-size: 16px;
   font-family: "Rubik", sans-serif;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+.header p {
+  font-weight: 500;
+  margin-top: 0.3rem;
+}
+
+.header button {
+  background-color: var(--bkgr-color-1);
+  border: none;
+  border-radius: 1.5rem;
+  font-size: 0.9rem;
+  padding: 0.7rem 1.3rem;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
